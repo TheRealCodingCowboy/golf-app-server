@@ -12,3 +12,13 @@ run:
   env:
     - name: NODE_ENV
       value: "production"
+    - name: DB_HOST
+      value: "ccm-golf-app-db.c6r20o6ymdsj.us-east-1.rds.amazonaws.com"
+    - name: DB_PORT
+      value: "5432"
+    - name: DB_NAME
+      value: "ccmgolfapp"
+    - name: DB_USER
+      value: "postgres"
+    - name: DB_PASSWORD
+      value: "Charpen2025!"
