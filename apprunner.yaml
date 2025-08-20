@@ -3,10 +3,9 @@ runtime: nodejs18
 build:
   commands:
     build:
-      - echo "Installing dependencies"
       - npm install
 run:
-  command: node index.js
+  command: npm start
   network:
     port: 3001
     env: PORT
